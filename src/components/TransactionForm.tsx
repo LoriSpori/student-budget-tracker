@@ -40,6 +40,7 @@ function TransactionForm({ onAddTransaction }: TransactionFormProps) {
     setDescription("");
     setAmount("");
     setCategory("Food");
+    setType("expense");
 };
 
   return (
